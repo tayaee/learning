@@ -8,5 +8,6 @@
     <name>petstore</name>
     <modules>
         <module>petstore-api</module>
+        <module>petstore-impl</module>
     </modules>
 </project>
