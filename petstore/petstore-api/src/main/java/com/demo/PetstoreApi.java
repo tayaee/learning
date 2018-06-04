@@ -3,9 +3,9 @@ package com.demo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class App {
+public class PetstoreApi {
     static final String VERSION = "v2";
-    private static Logger LOGGER = LoggerFactory.getLogger(App.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(PetstoreApi.class);
 
     static String getVersion() {
         return VERSION;
