@@ -1,13 +1,7 @@
 package com.demo;
 
-/**
- * Hello world!
- *
- */
-public class App
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello IMPL v2" );
+public class App {
+    public static void main(String[] args) {
+        System.out.println("petstore-impl v1, using petstore-api: " + PetstoreApi.getVersion());
     }
 }
